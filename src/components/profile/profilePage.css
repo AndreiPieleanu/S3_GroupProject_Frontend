@@ -1,0 +1,35 @@
+.user-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.scroller {
+  max-height: 200px;
+  /* Adjust the maximum height according to your needs */
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  /* Add a border for visual separation */
+  padding: 10px;
+  /* Add some padding to the container */
+}
+
+.scroller::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+.scroller::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* Color of the scrollbar track */
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* Color of the scrollbar thumb */
+}
+
+.scroller::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+  /* Color of the scrollbar thumb on hover */
+}

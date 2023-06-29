@@ -1,0 +1,8 @@
+.tableLinks {
+    text-decoration: none;
+}
+
+.tableLinks:hover{
+    text-decoration:underline;
+}
+
